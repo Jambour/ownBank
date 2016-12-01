@@ -4,5 +4,6 @@ public interface AccountMO {
 
 	int getBalance();
 
+
 	int getAccountNumber();
 }

@@ -11,7 +11,6 @@ public class AccountTest {
 		Assert.assertEquals(0, account.getBalance());
 		int amount = 100;
 		account.book(amount);
-
 		Assert.assertEquals(amount, account.getBalance());
 	}
 
